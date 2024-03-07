@@ -1,0 +1,25 @@
+(footprint "reference_point" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp a7b9c5c9-dfe5-4167-97be-db6426bbff15)
+  )
+  (fp_text value "reference_point" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bbe89e8b-3f6a-42bd-a13f-9344e5c9eb52)
+  )
+  (fp_line (start -3.175 0) (end 0 0)
+    (stroke (width 0.1) (type default)) (layer "User.3") (tstamp d6c85931-0be9-45b2-b2cb-4e9e930efd81))
+  (fp_line (start 0 -3.175) (end 0 3.175)
+    (stroke (width 0.1) (type default)) (layer "User.3") (tstamp 996b80d7-a99a-41ed-b8e7-27c23b1040e0))
+  (fp_line (start 0 0) (end 3.175 0)
+    (stroke (width 0.1) (type default)) (layer "User.3") (tstamp 6211bd1d-f2bb-45c5-9e56-6c041b5cd2e5))
+  (pad "1" thru_hole circle (at 0 0) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 233ce67b-035c-4de4-89da-8023529ea8e0))
+  (group "" (id 21f443c7-8a7c-4ebc-a054-e84ac4ce72e2)
+    (members
+      6211bd1d-f2bb-45c5-9e56-6c041b5cd2e5
+      996b80d7-a99a-41ed-b8e7-27c23b1040e0
+      d6c85931-0be9-45b2-b2cb-4e9e930efd81
+    )
+  )
+)

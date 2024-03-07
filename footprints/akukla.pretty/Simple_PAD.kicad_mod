@@ -1,0 +1,18 @@
+(footprint "Simple_PAD" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0.635 -1.905 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 050da728-440d-462e-bce3-7a92230c719b)
+  )
+  (fp_text value "Simple_PAD" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 79befd62-c128-4e0b-b058-2f7bcc211ef0)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d1d5a915-6eb2-41a5-ab89-5380f2c9c42c)
+  )
+  (pad "1" smd roundrect (at 0 0) (size 2.54 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_angle 45) (tstamp 75389c82-00a6-4cbf-91e1-868e0634f778))
+)
